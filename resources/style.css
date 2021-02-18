@@ -14,22 +14,32 @@ body {
     opacity: 0.9;
 }
 
-/* Nav Bar Rules */
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
 
 .container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
+/* Navigation Rules */
+
+
 
 nav {
     align-items: center;
     border-bottom: 1px solid seashell;
-    min-height: 69px;
-    z-index: 1;
+    height: 69px;
+    z-index: 200;
     top: 0;
     position: fixed;
     width: 100%;
+    background-color: black;
     
 }
 div span {
@@ -52,4 +62,52 @@ a {
     text-align: right;
     flex-grow: 1;
 }
+
+/* Main Section Rules */
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+    
+    
+}
+
+#mission-statement {
+    height: 700px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+    
+}
+
+.content  {
+    background-color:black;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+/* Top Tea Image Gallery */
+#imagegallery {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+div img {
+    margin: 10px;
+    width: 300px;
+    display: block;
+}
+
+div.image span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
 
