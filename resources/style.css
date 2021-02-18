@@ -141,3 +141,18 @@ div.image span {
     margin: 5px 20px;
     
 }
+
+/* Contact Styles */
+
+#contact {
+    height: 200px;
+}
+
+/* Footer Styles */
+
+footer {
+    padding-right: 20px;
+    text-align: left;
+}
+
+
